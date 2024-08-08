@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iron Man Herrería</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .hero {
+            background-color: #555;
+            color: white;
+            padding: 50px;
+            text-align: center;
+        }
+
+        .hero img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .about,
+        .services,
+        .contact {
+            background-color: white;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+            font-size: 28px;
+        }
+
+        p {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        .gallery img {
+            max-width: 200px;
+            max-height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Iron Man Herrería</h1>
+    </header>
+
+    <nav>
+        <a href="#about">Sobre Nosotros</a>
+        <a href="#services">Servicios</a>
+        <a href="#gallery">Galería</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+
+    <div class="container">
+        <section class="hero">
+            <h2>Bienvenidos a Iron Man Herrería</h2>
+            <p>Diseños de hierro forjado personalizados para cada necesidad.</p>
+            <img src="img/db94d623-448a-4883-9cb3-758b109dbb97.jpg" alt="Imagen de Herrería">
+        </section>
+
+        <section id="about" class="about">
+            <h2>Sobre Nosotros</h2>
+            <p>Iron Man Herrería se dedica a la creación de piezas únicas en hierro forjado. Con años de experiencia, nuestros artesanos crean productos de alta calidad y durabilidad.</p>
+        </section>
+
+        <section id="services" class="services">
+            <h2>Servicios</h2>
+            <p>Ofrecemos una amplia gama de servicios, incluyendo:</p>
+            <ul>
+                <li>Puertas de hierro</li>
+                <li>Rejas y barandillas</li>
+                <li>Muebles de hierro</li>
+                <li>Esculturas personalizadas</li>
+            </ul>
+        </section>
+
+        <section id="gallery" class="gallery">
+            <h2>Galería</h2>
+            <p>Algunas de nuestras creaciones:</p>
+            <img src="img/5104767d-8d30-4c20-8a52-1440b84244c4.jpg" alt="Trabajo 1">
+            <img src="img/333be7bf-a8d6-4973-8973-e4b8848384de.jpg" alt="Trabajo 2">
+            <img src="img/2d8fd998-34b1-430e-b475-a408c146b208.jpg" alt="Trabajo 3">
+        </section>
+
+       <section id="contact" class="contact">
+            <h2>Contacto</h2>
+            <p>Si estás interesado en nuestros servicios, no dudes en contactarnos.</p>
+            <p>Email: contacto@ironmanherreria.com</p>
+            <p>Teléfono: +54 9 11 2261-6808</p>
+            <p>Dirección: Buenos Aires, Argentina</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Iron Man Herrería. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
